@@ -1,0 +1,3 @@
+# Asteroids
+
+A small game of asteroids in python. Work in progress...
