@@ -42,9 +42,10 @@ The project is organized into several Python modules:
 
 ## Controls
 
-`W`: Move forward.
-`S`: Move backward.
-`A`: Rotate left.
+- `W`: Move forward.
+- `S`: Move backward.
+- `A`: Rotate left.
+- `Space`: Shoot projectiles.
 
 ## Dependencies
 
