@@ -22,16 +22,17 @@ The project is organized into several Python modules:
 - **`asteroidfield.py`**: Implements the `AsteroidField` class, which manages the spawning of asteroids at random edges of the screen.
 - **`shot.py`**: Implements the `Shot` class, which represents projectiles fired by the player.
 - **`circleshape.py`**: A base class for circular game objects, providing common functionality such as collision detection.
+- **`logger.py`**: Provides logging utilities for capturing game state and events for debugging and analysis purposes.
 - **`requirements.txt`**: Specifies the required Python dependencies for the project.
 - **`.gitignore`**: Specifies files and directories to be ignored by Git.
 
 ## How to Run
 
 1. Install Python (version 3.12 or higher is recommended).
-2. Install the required dependencies using `pip`:
+2. Install the required dependencies using `uv`:
 
    ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 3. Run the game:
