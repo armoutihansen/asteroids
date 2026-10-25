@@ -38,7 +38,7 @@ The project is organized into several Python modules:
 3. Run the game:
 
    ```bash
-   python main.py
+   uv run python main.py
    ```
 
 ## Controls
